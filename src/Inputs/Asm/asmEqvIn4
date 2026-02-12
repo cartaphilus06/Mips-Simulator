@@ -1,0 +1,8 @@
+main:
+    ADDI $t0, $zero, 256
+    ADDI $t1, $zero, 42
+    SW $t1, 4($t0)
+    LW $t2, 4($t0)
+    ADDI $t3, $zero, 84
+    SW $t3, 0($t0)
+    LW $t4, 0($t0)

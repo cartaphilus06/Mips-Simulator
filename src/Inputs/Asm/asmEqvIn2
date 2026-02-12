@@ -1,0 +1,8 @@
+main:
+    ADDI $t1, $zero, 10
+    ADDI $t2, $zero, 5
+    ADD $t3, $t1, $t2
+    SUB $t4, $t1, $t2
+    SLT $t5, $t2, $t1
+    ADDI $zero, $zero, 500
+    ADD $t7, $t1, $zero

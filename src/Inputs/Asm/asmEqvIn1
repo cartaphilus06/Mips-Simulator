@@ -1,0 +1,6 @@
+main:
+    ADDI $t0, $zero, 5
+    ADDI $t1, $zero, 3
+    SUB $t2, $t0, $t1
+    SLT $t3, $t0, $t1
+    SW $t2, $zero, 0
